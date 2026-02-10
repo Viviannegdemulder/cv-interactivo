@@ -1,21 +1,13 @@
 # CV Interactivo – Vivianne González de Mulder
 
-Currículum Vitae interactivo desarrollado como evaluación del Módulo 2.
+Proyecto académico desarrollado como parte de la Evaluación del Módulo 2.
 
-## Tecnologías
+## Tecnologías utilizadas
 - HTML5
 - CSS3
-- Bootstrap 5
+- Bootstrap
 - JavaScript
 - jQuery
 
-## Funcionalidades
-- Diseño responsive con grid Bootstrap
-- Navegación por secciones
-- Modo claro / oscuro
-- Animaciones al hacer scroll
-- Interacciones dinámicas
-- Formulario con validación
-
-## Demo
-https://TU-USUARIO.github.io/cv-interactivo/
+## Enlace al CV en vivo
+👉 https://TU-USUARIO.github.io/cv-interactivo/
