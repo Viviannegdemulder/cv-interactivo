@@ -1,0 +1,95 @@
+body {
+  background-color: #f1f3f5;
+  font-family: "Segoe UI", sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.main-container {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-card {
+  padding: 30px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.section-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.profile-img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.skill {
+  background-color: #dee2e6;
+  color: #212529;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Modo oscuro */
+.dark-mode {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+.dark-mode .section-card {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .skill {
+  background-color: #343a40;
+  color: white;
+}
+
+.highlight {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+/* Forzar texto blanco en modo oscuro */
+.dark-mode,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode li,
+.dark-mode span,
+.dark-mode small,
+.dark-mode label {
+  color: #ffffff !important;
+}
+
+/* Mantener textos secundarios legibles */
+.dark-mode .text-muted {
+  color: #cccccc !important;
+}
+
+/* Inputs y formularios en modo oscuro */
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.dark-mode input::placeholder {
+  color: #bbbbbb;
+}
