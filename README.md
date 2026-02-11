@@ -10,5 +10,6 @@ Proyecto académico desarrollado como parte de la Evaluación del Módulo 2.
 - jQuery
 
 ## Enlace al CV en vivo
-👉 [https://TU-USUARIO.github.io/cv-interactivo/](https://viviannegdemulder.github.io/cv-interactivo/)
+👉(https://viviannegdemulder.github.io/cv-interactivo/)
+
 
